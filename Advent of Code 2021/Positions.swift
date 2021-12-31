@@ -7,9 +7,13 @@
 
 import Foundation
 
+public struct PositionList {
+	var Direction: String
+	var Movement: Int
+}
+
 class Positions {
-	
-	func GetPositions(dataType: String) -> [String] {
+	func GetPositions(dataType: String) -> [PositionList] {
 		var rtn :[String]
 		
 		if dataType == "test"
@@ -17,10 +21,17 @@ class Positions {
 			rtn = testPostions
 		}
 		else {
-			rtn = ["test", "test 2"]
+			rtn = ReadPosition()
 		}
 		
-		return rtn
+		var movement = [PositionList]()
+		
+		for m in rtn {
+			let s = m.split(separator: " ")
+			movement.append(PositionList.init(Direction: String(s[0]), Movement: Int(s[1]) ?? 0))
+		}
+		
+		return movement
 	}
 	
 	public let testPostions = [
@@ -31,9 +42,20 @@ class Positions {
 		"down 8",
 		"forward 2"]
 	
-	private func ReadPosition () {
-		let positionFile = FileHandle.init(forReadingAtPath: "Positions.txt")
-		let data = positionFile?.readDataToEndOfFile()
+	private func ReadPosition() -> [String] {
+		let filename = "/Users/thomasstidham/Documents/source/Advent of Code/AdventOfCode2021/Advent of Code 2021/Positions.txt"
+		let data = try? String(contentsOfFile: filename)
 		
+		let lines = data?.split(separator: "\n")
+		
+		var entries: [String] = []
+		
+		if !lines!.isEmpty {
+			for line in lines! {
+				entries.append(String(line))
+			}
+		}
+		
+		return entries
 	}
 }

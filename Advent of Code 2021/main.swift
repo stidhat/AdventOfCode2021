@@ -7,7 +7,12 @@
 
 import Foundation
 
+/*
 let day1 = Day1()
 day1.SonarSweep()
-
 day1.SonarSweepWindow()
+*/
+
+let day2 = Day2()
+day2.FindPosition()
+day2.FindByAim()
