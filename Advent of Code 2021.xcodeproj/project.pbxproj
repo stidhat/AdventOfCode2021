@@ -13,6 +13,8 @@
 		413818B7277D9AC900D2E45B /* DepthMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818B6277D9AC900D2E45B /* DepthMeasurement.swift */; };
 		413818BA277DA5BE00D2E45B /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818B9277DA5BE00D2E45B /* Day2.swift */; };
 		413818BE277DA6C200D2E45B /* Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818BD277DA6C200D2E45B /* Positions.swift */; };
+		41FBA9E227813454000D0774 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E127813454000D0774 /* Day3.swift */; };
+		41FBA9E527813749000D0774 /* DiagnosticReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E427813749000D0774 /* DiagnosticReport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,10 @@
 		413818B9277DA5BE00D2E45B /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		413818BC277DA65500D2E45B /* Positions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Positions.txt; sourceTree = "<group>"; };
 		413818BD277DA6C200D2E45B /* Positions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positions.swift; sourceTree = "<group>"; };
+		41FBA9DE277FCBDB000D0774 /* DiagnosticReport.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiagnosticReport.txt; sourceTree = "<group>"; };
+		41FBA9E027813390000D0774 /* DepthMeasurements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepthMeasurements.txt; sourceTree = "<group>"; };
+		41FBA9E127813454000D0774 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		41FBA9E427813749000D0774 /* DiagnosticReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticReport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +77,25 @@
 			children = (
 				413818A4277CD0B800D2E45B /* main.swift */,
 				413818AC277CD0D100D2E45B /* Day1.swift */,
-				413818AF277CD0E100D2E45B /* ConsoleIO.swift */,
 				413818B6277D9AC900D2E45B /* DepthMeasurement.swift */,
 				413818B9277DA5BE00D2E45B /* Day2.swift */,
-				413818BC277DA65500D2E45B /* Positions.txt */,
 				413818BD277DA6C200D2E45B /* Positions.swift */,
+				41FBA9E127813454000D0774 /* Day3.swift */,
+				41FBA9E427813749000D0774 /* DiagnosticReport.swift */,
+				413818AF277CD0E100D2E45B /* ConsoleIO.swift */,
+				41FBA9DF27813366000D0774 /* DataFiles */,
 			);
 			path = "Advent of Code 2021";
+			sourceTree = "<group>";
+		};
+		41FBA9DF27813366000D0774 /* DataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				413818BC277DA65500D2E45B /* Positions.txt */,
+				41FBA9DE277FCBDB000D0774 /* DiagnosticReport.txt */,
+				41FBA9E027813390000D0774 /* DepthMeasurements.txt */,
+			);
+			path = DataFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41FBA9E227813454000D0774 /* Day3.swift in Sources */,
 				413818B7277D9AC900D2E45B /* DepthMeasurement.swift in Sources */,
+				41FBA9E527813749000D0774 /* DiagnosticReport.swift in Sources */,
 				413818BA277DA5BE00D2E45B /* Day2.swift in Sources */,
 				413818B0277CD0E100D2E45B /* ConsoleIO.swift in Sources */,
 				413818AD277CD0D100D2E45B /* Day1.swift in Sources */,

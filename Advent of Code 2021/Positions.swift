@@ -43,7 +43,7 @@ class Positions {
 		"forward 2"]
 	
 	private func ReadPosition() -> [String] {
-		let filename = "/Users/thomasstidham/Documents/source/Advent of Code/AdventOfCode2021/Advent of Code 2021/Positions.txt"
+		let filename = "/Users/thomasstidham/Documents/source/Advent of Code/AdventOfCode2021/Advent of Code 2021/DataFiles/Positions.txt"
 		let data = try? String(contentsOfFile: filename)
 		
 		let lines = data?.split(separator: "\n")
