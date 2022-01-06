@@ -15,6 +15,8 @@
 		413818BE277DA6C200D2E45B /* Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818BD277DA6C200D2E45B /* Positions.swift */; };
 		41FBA9E227813454000D0774 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E127813454000D0774 /* Day3.swift */; };
 		41FBA9E527813749000D0774 /* DiagnosticReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E427813749000D0774 /* DiagnosticReport.swift */; };
+		41FBA9EA2782F61E000D0774 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E92782F61E000D0774 /* Day4.swift */; };
+		41FBA9ED2782F65A000D0774 /* Bingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9EC2782F65A000D0774 /* Bingo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +44,10 @@
 		41FBA9E027813390000D0774 /* DepthMeasurements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepthMeasurements.txt; sourceTree = "<group>"; };
 		41FBA9E127813454000D0774 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		41FBA9E427813749000D0774 /* DiagnosticReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticReport.swift; sourceTree = "<group>"; };
+		41FBA9E82782EEA6000D0774 /* BIngo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BIngo.txt; sourceTree = "<group>"; };
+		41FBA9E92782F61E000D0774 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		41FBA9EC2782F65A000D0774 /* Bingo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bingo.swift; sourceTree = "<group>"; };
+		41FBA9F12786DAC6000D0774 /* VentData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = VentData.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 				413818BD277DA6C200D2E45B /* Positions.swift */,
 				41FBA9E127813454000D0774 /* Day3.swift */,
 				41FBA9E427813749000D0774 /* DiagnosticReport.swift */,
+				41FBA9E92782F61E000D0774 /* Day4.swift */,
+				41FBA9EC2782F65A000D0774 /* Bingo.swift */,
 				413818AF277CD0E100D2E45B /* ConsoleIO.swift */,
 				41FBA9DF27813366000D0774 /* DataFiles */,
 			);
@@ -94,6 +102,8 @@
 				413818BC277DA65500D2E45B /* Positions.txt */,
 				41FBA9DE277FCBDB000D0774 /* DiagnosticReport.txt */,
 				41FBA9E027813390000D0774 /* DepthMeasurements.txt */,
+				41FBA9E82782EEA6000D0774 /* BIngo.txt */,
+				41FBA9F12786DAC6000D0774 /* VentData.txt */,
 			);
 			path = DataFiles;
 			sourceTree = "<group>";
@@ -162,6 +172,8 @@
 				413818B0277CD0E100D2E45B /* ConsoleIO.swift in Sources */,
 				413818AD277CD0D100D2E45B /* Day1.swift in Sources */,
 				413818BE277DA6C200D2E45B /* Positions.swift in Sources */,
+				41FBA9ED2782F65A000D0774 /* Bingo.swift in Sources */,
+				41FBA9EA2782F61E000D0774 /* Day4.swift in Sources */,
 				413818A5277CD0B800D2E45B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

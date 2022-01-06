@@ -19,6 +19,12 @@ day2.FindPosition()
 day2.FindByAim()
 */
 
+/*
 let day3 = Day3()
 day3.DiagnosticsString()
 day3.LifeSupportRating()
+*/
+
+let day4 = Day4()
+day4.PlayBingo()
+day4.LoseBingo()
