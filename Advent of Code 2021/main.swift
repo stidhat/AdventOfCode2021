@@ -25,6 +25,11 @@ day3.DiagnosticsString()
 day3.LifeSupportRating()
 */
 
+/*
 let day4 = Day4()
 day4.PlayBingo()
 day4.LoseBingo()
+*/
+
+let day5 = Day5()
+day5.Danger()
