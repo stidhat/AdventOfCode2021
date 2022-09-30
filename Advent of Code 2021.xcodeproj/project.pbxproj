@@ -13,12 +13,17 @@
 		413818B7277D9AC900D2E45B /* DepthMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818B6277D9AC900D2E45B /* DepthMeasurement.swift */; };
 		413818BA277DA5BE00D2E45B /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818B9277DA5BE00D2E45B /* Day2.swift */; };
 		413818BE277DA6C200D2E45B /* Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413818BD277DA6C200D2E45B /* Positions.swift */; };
+		413D5A31279B19FC00BA9455 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D5A30279B19FC00BA9455 /* Day8.swift */; };
+		413D5A34279B1A6A00BA9455 /* LEDDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D5A33279B1A6A00BA9455 /* LEDDisplay.swift */; };
 		41FBA9E227813454000D0774 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E127813454000D0774 /* Day3.swift */; };
 		41FBA9E527813749000D0774 /* DiagnosticReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E427813749000D0774 /* DiagnosticReport.swift */; };
 		41FBA9EA2782F61E000D0774 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9E92782F61E000D0774 /* Day4.swift */; };
 		41FBA9ED2782F65A000D0774 /* Bingo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9EC2782F65A000D0774 /* Bingo.swift */; };
 		41FBA9F32786DB1B000D0774 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9F22786DB1B000D0774 /* Day5.swift */; };
 		41FBA9F62786DB38000D0774 /* VentMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9F52786DB38000D0774 /* VentMapping.swift */; };
+		41FBA9FA278AB7E3000D0774 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9F9278AB7E2000D0774 /* Day6.swift */; };
+		41FBA9FE278AC8F8000D0774 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBA9FD278AC8F8000D0774 /* Day7.swift */; };
+		41FBAA01278AC93C000D0774 /* CrabPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FBAA00278AC93C000D0774 /* CrabPositions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +47,9 @@
 		413818B9277DA5BE00D2E45B /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
 		413818BC277DA65500D2E45B /* Positions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Positions.txt; sourceTree = "<group>"; };
 		413818BD277DA6C200D2E45B /* Positions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Positions.swift; sourceTree = "<group>"; };
+		413D5A2E279B19C000BA9455 /* LEDSegments.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LEDSegments.txt; sourceTree = "<group>"; };
+		413D5A30279B19FC00BA9455 /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
+		413D5A33279B1A6A00BA9455 /* LEDDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDDisplay.swift; sourceTree = "<group>"; };
 		41FBA9DE277FCBDB000D0774 /* DiagnosticReport.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiagnosticReport.txt; sourceTree = "<group>"; };
 		41FBA9E027813390000D0774 /* DepthMeasurements.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = DepthMeasurements.txt; sourceTree = "<group>"; };
 		41FBA9E127813454000D0774 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
@@ -52,6 +60,9 @@
 		41FBA9F12786DAC6000D0774 /* VentData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = VentData.txt; sourceTree = "<group>"; };
 		41FBA9F22786DB1B000D0774 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 		41FBA9F52786DB38000D0774 /* VentMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentMapping.swift; sourceTree = "<group>"; };
+		41FBA9F9278AB7E2000D0774 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		41FBA9FD278AC8F8000D0774 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
+		41FBAA00278AC93C000D0774 /* CrabPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrabPositions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				413818A3277CD0B800D2E45B /* Advent of Code 2021 */,
+				413818AF277CD0E100D2E45B /* ConsoleIO.swift */,
 				413818A2277CD0B800D2E45B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +108,10 @@
 				41FBA9EC2782F65A000D0774 /* Bingo.swift */,
 				41FBA9F22786DB1B000D0774 /* Day5.swift */,
 				41FBA9F52786DB38000D0774 /* VentMapping.swift */,
-				413818AF277CD0E100D2E45B /* ConsoleIO.swift */,
+				41FBA9F9278AB7E2000D0774 /* Day6.swift */,
+				41FBA9FD278AC8F8000D0774 /* Day7.swift */,
+				413D5A30279B19FC00BA9455 /* Day8.swift */,
+				413D5A33279B1A6A00BA9455 /* LEDDisplay.swift */,
 				41FBA9DF27813366000D0774 /* DataFiles */,
 			);
 			path = "Advent of Code 2021";
@@ -110,6 +125,8 @@
 				41FBA9E027813390000D0774 /* DepthMeasurements.txt */,
 				41FBA9E82782EEA6000D0774 /* BIngo.txt */,
 				41FBA9F12786DAC6000D0774 /* VentData.txt */,
+				41FBAA00278AC93C000D0774 /* CrabPositions.swift */,
+				413D5A2E279B19C000BA9455 /* LEDSegments.txt */,
 			);
 			path = DataFiles;
 			sourceTree = "<group>";
@@ -173,6 +190,7 @@
 			files = (
 				41FBA9E227813454000D0774 /* Day3.swift in Sources */,
 				413818B7277D9AC900D2E45B /* DepthMeasurement.swift in Sources */,
+				41FBA9FE278AC8F8000D0774 /* Day7.swift in Sources */,
 				41FBA9F32786DB1B000D0774 /* Day5.swift in Sources */,
 				41FBA9E527813749000D0774 /* DiagnosticReport.swift in Sources */,
 				413818BA277DA5BE00D2E45B /* Day2.swift in Sources */,
@@ -181,8 +199,12 @@
 				413818AD277CD0D100D2E45B /* Day1.swift in Sources */,
 				413818BE277DA6C200D2E45B /* Positions.swift in Sources */,
 				41FBA9ED2782F65A000D0774 /* Bingo.swift in Sources */,
+				413D5A31279B19FC00BA9455 /* Day8.swift in Sources */,
+				41FBA9FA278AB7E3000D0774 /* Day6.swift in Sources */,
 				41FBA9EA2782F61E000D0774 /* Day4.swift in Sources */,
+				41FBAA01278AC93C000D0774 /* CrabPositions.swift in Sources */,
 				413818A5277CD0B800D2E45B /* main.swift in Sources */,
+				413D5A34279B1A6A00BA9455 /* LEDDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

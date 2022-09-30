@@ -31,5 +31,21 @@ day4.PlayBingo()
 day4.LoseBingo()
 */
 
+/*
 let day5 = Day5()
 day5.Danger()
+*/
+
+/*
+let day6 = Day6()
+day6.Step1(DataType: "prod")
+*/
+
+/*
+let day7 = Day7()
+day7.AlignCrabs(DataType: "test")
+*/
+
+
+let day8 = Day8()
+day8.BasicCount()
